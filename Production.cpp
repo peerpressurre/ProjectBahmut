@@ -1,24 +1,29 @@
 #include "Production.h"
 
-//struct Production::Production
-//{
-//	int Strength;
-//	string Class;
-//	string Model;
-//
-//	Production()
-//	{
-//		this->Model = "";
-//		this->Strength = 0;
-//		this->Class = "";
-//	}
-//	Production(string model, int strength, string Class)
-//	{
-//		this->Model = model;
-//		this->Strength = strength;
-//		this->Class = Class;
-//	}
-//};
+void Production::setStrength(int Strength)
+{
+	this->Strength = Strength;
+}
+void Production::setClass(string Class)
+{
+	this->Class = Class;
+}
+void Production::setModel(string Model)
+{
+	this->Model = Model;
+}
+int Production::getStrength()
+{
+	return Strength;
+}
+string Production::getClass()
+{
+	return Class;
+}
+string Production::getModel()
+{
+	return Model;
+}
 
 Production::Production()
 {

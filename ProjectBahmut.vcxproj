@@ -132,6 +132,8 @@
     <ClInclude Include="client_screen.h" />
     <ClInclude Include="prodProvider.h" />
     <ClInclude Include="Production.h" />
+    <ClInclude Include="ProfData.h" />
+    <ClInclude Include="Profile.h" />
     <ClInclude Include="Screens.h" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +141,8 @@
     <ClCompile Include="application.cpp" />
     <ClCompile Include="client_screen.cpp" />
     <ClCompile Include="Production.cpp" />
+    <ClCompile Include="ProfData.cpp" />
+    <ClCompile Include="Profile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

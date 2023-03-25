@@ -16,6 +16,7 @@ struct ProdProvider
 	}
 	void PrintCatalog(int filter)
 	{
+		// case 1: mercedes || case 2: BMW || case 3: All
 		switch (filter)
 		{
 		case 1:

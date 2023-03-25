@@ -25,6 +25,9 @@
     <Filter Include="data\prodProvider\Production">
       <UniqueIdentifier>{bf5a4a2d-adad-4346-a0e7-8bd44977553c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="data\Profile">
+      <UniqueIdentifier>{a4172291-9f60-4525-9141-07141d2aa8d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="application.h">
@@ -45,6 +48,12 @@
     <ClInclude Include="Production.h">
       <Filter>data\prodProvider\Production</Filter>
     </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>data\Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfData.h">
+      <Filter>data\Profile</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp">
@@ -58,6 +67,12 @@
     </ClCompile>
     <ClCompile Include="Production.cpp">
       <Filter>data\prodProvider\Production</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>data\Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfData.cpp">
+      <Filter>data\Profile</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
